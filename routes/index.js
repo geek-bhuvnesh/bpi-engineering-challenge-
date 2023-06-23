@@ -4,6 +4,7 @@ const multiTenancyAgentWrapper = require('./models/index')
 
 /* POST Create Service Agent. */
 router.POST('/createServiceAgent', async (req, res) => {
+  console.log("Test Commit")
   const { headers, body } = req
   const result = {
     data: {},
